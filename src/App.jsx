@@ -1,9 +1,11 @@
-
 import './App.css';
+import {Slider} from './component/Slider';
+import slides from './mock.json';
+
 
 function App() {
   return (
-    <div>App</div>
+    <Slider slides={slides}/>
   );
 }
 
