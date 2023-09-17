@@ -3,24 +3,24 @@
     "image": "https://media.istockphoto.com/id/1168380889/photo/assortment-of-food-rich-in-omega-3-with-copy-space.jpg?s=612x612&w=0&k=20&c=iQ__D83T2DDx9H-vW4m4YUzMOyk6RTzVdshNfaM8K1o=",
     "title": "plate 1",
     "subTitle": "food",
-    "interval": 1500
+    "interval": 1
   },
   {
     "image": "https://media.istockphoto.com/id/1155240408/photo/table-filled-with-large-variety-of-food.jpg?s=612x612&w=0&k=20&c=uJEbKmR3wOxwdhQR_36as5WeP6_HDqfU-QmAq63OVEE=",
-    "title": "Black Adam",
-    "subTitle": "plate 2",
-    "interval": 500
+    "title": "plate 2",
+    "subTitle": "food",
+    "interval": 2
   },
   {
     "image": "https://media.istockphoto.com/id/1155240408/photo/table-filled-with-large-variety-of-food.jpg?s=612x612&w=0&k=20&c=uJEbKmR3wOxwdhQR_36as5WeP6_HDqfU-QmAq63OVEE=",
-    "title": "Black Adam",
-    "subTitle": "plate 2",
-    "interval": 500
+    "title": "plate 3",
+    "subTitle": "food",
+    "interval": 3
   },
   {
     "image": "https://media.istockphoto.com/id/1457889029/photo/group-of-food-with-high-content-of-dietary-fiber-arranged-side-by-side.jpg?b=1&s=612x612&w=0&k=20&c=BON5S0uDJeCe66N9klUEw5xKSGVnFhcL8stPLczQd_8=",
-    "title": "plate 3",
+    "title": "plate 4",
     "subTitle": "food",
-    "interval": 2500
+    "interval": 4
   }
 ]
