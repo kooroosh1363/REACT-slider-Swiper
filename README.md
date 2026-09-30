@@ -119,7 +119,7 @@ Requirements:
 - npm
 
 ```bash
-npm install
+npm install --legacy-peer-deps
 npm run dev
 ```
 
@@ -149,8 +149,10 @@ npm run check
 `.github/workflows/quality.yml` runs on pull requests and pushes to `main`:
 
 ```text
-npm install → syntax check → Vitest policy/data tests → Vite production build
+npm install --legacy-peer-deps → syntax check → Vitest policy/data tests → Vite production build
 ```
+
+Dependency versions are pinned exactly. The install command uses `--legacy-peer-deps` to avoid an npm 10 Arborist resolver crash observed on GitHub-hosted Node 22 runners; the application does not rely on unresolved runtime peer behavior.
 
 A red quality workflow is treated as a merge blocker for this repository workflow.
 
