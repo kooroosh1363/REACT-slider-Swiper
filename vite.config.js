@@ -5,8 +5,6 @@ export default defineConfig({
   plugins: [react()],
   base: process.env.DEPLOY_TARGET === "github-pages" ? "/REACT-slider-Swiper/" : "/",
   test: {
-    environment: "jsdom",
-    setupFiles: "./src/testSetup.js",
-    css: false
+    environment: "node"
   }
 });
