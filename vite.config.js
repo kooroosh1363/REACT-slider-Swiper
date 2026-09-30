@@ -3,9 +3,10 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: process.env.GITHUB_ACTIONS ? "/REACT-slider-Swiper/" : "/",
+  base: process.env.DEPLOY_TARGET === "github-pages" ? "/REACT-slider-Swiper/" : "/",
   test: {
     environment: "jsdom",
-    setupFiles: "./src/test/setup.js"
+    setupFiles: "./src/testSetup.js",
+    css: false
   }
 });
