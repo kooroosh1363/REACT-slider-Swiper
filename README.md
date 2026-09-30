@@ -18,7 +18,7 @@ Carousels look simple, but they combine responsive layout, pointer gestures, key
 - console callbacks → controlled active-story state
 - decorative coverflow → readable responsive card rail
 - implicit state → pure URL/category/story state policy
-- default CRA test → Vitest + Testing Library coverage
+- default CRA test → lightweight Vitest policy/data coverage
 - no CI → PR quality workflow
 - no deployment workflow → GitHub Pages workflow
 - CRA boilerplate README/assets → project-specific documentation and cleanup
@@ -129,7 +129,7 @@ npm run dev
 npm test
 ```
 
-The suite covers category normalization, filtering, active-story recovery, query-string read/write behavior, preservation of unrelated query parameters, default UI rendering, category interaction, and URL synchronization.
+The suite covers category normalization, filtering, active-story recovery, query-string read/write behavior, preservation of unrelated query parameters, unique story identifiers, declared categories, and required content fields.
 
 ## Production build
 
@@ -149,7 +149,7 @@ npm run check
 `.github/workflows/quality.yml` runs on pull requests and pushes to `main`:
 
 ```text
-npm install → syntax check → Vitest → Vite production build
+npm install → syntax check → Vitest policy/data tests → Vite production build
 ```
 
 A red quality workflow is treated as a merge blocker for this repository workflow.
